@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?><!--<LinearLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:orientation="1"-->
+<!--    android:background="argb8(0xffffff)"-->
+<!--    android:layout_width="-1"-->
+<!--    android:layout_height="-1">-->
+
+<!--    <FrameLayout-->
+<!--        android:background="@ref/0x7f060036"-->
+<!--        android:layout_width="-1"-->
+<!--        android:layout_height="dimension(42241)"-->
+<!--        android:layout_marginLeft="dimension(2561)"-->
+<!--        android:layout_marginTop="dimension(2561)"-->
+<!--        android:layout_marginRight="dimension(2561)"-->
+<!--        android:layout_marginBottom="dimension(1281)">-->
+
+<!--        <ProgressBar-->
+<!--            android:layout_gravity="0x11"-->
+<!--            android:id="@ref/0x7f0900f7"-->
+<!--            android:layout_width="-2"-->
+<!--            android:layout_height="-2" />-->
+
+<!--        <LinearLayout-->
+<!--            android:orientation="1"-->
+<!--            android:id="@ref/0x7f0900b4"-->
+<!--            android:visibility="1"-->
+<!--            android:layout_width="-1"-->
+<!--            android:layout_height="-1"-->
+<!--            android:weightSum="1092616192.000000">-->
+
+<!--            <LinearLayout-->
+<!--                android:orientation="0"-->
+<!--                android:layout_width="-1"-->
+<!--                android:layout_height="dimension(1)"-->
+<!--                android:weightSum="1073741824.000000"-->
+<!--                android:layout_weight="1086324736.000000">-->
+
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="dimension(1)"-->
+<!--                    android:layout_height="-1"-->
+<!--                    android:layout_weight="1065353216.000000">-->
+
+<!--                    <TextView-->
+<!--                        android:textSize="dimension(19202)"-->
+<!--                        android:textColor="@ref/0x7f06003a"-->
+<!--                        android:id="@ref/0x7f090175"-->
+<!--                        android:layout_width="-2"-->
+<!--                        android:layout_height="-2"-->
+<!--                        android:layout_marginTop="dimension(1)"-->
+<!--                        android:text="20"-->
+<!--                        android:layout_centerHorizontal="true"-->
+<!--                        android:layout_centerVertical="true" />-->
+
+<!--                    <TextView-->
+<!--                        android:textSize="dimension(19202)"-->
+<!--                        android:textColor="rgb4(0xffffffff)"-->
+<!--                        android:layout_width="-2"-->
+<!--                        android:layout_height="-2"-->
+<!--                        android:text="°"-->
+<!--                        android:layout_toRightOf="@ref/0x7f090175"-->
+<!--                        android:layout_centerVertical="true" />-->
+<!--                </RelativeLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:gravity="0x11"-->
+<!--                    android:layout_width="dimension(1)"-->
+<!--                    android:layout_height="-1"-->
+<!--                    android:layout_weight="1065353216.000000">-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@ref/0x7f09009a"-->
+<!--                        android:layout_width="dimension(25601)"-->
+<!--                        android:layout_height="dimension(25601)" />-->
+<!--                </LinearLayout>-->
+<!--            </LinearLayout>-->
+
+<!--            <TextView-->
+<!--                android:textSize="dimension(5890)"-->
+<!--                android:textColor="@ref/0x7f06003a"-->
+<!--                android:gravity="0x11"-->
+<!--                android:id="@ref/0x7f09016e"-->
+<!--                android:layout_width="-1"-->
+<!--                android:layout_height="dimension(1)"-->
+<!--                android:text="Mưa rào nhẹ"-->
+<!--                android:layout_weight="1073741824.000000" />-->
+
+<!--            <LinearLayout-->
+<!--                android:orientation="0"-->
+<!--                android:layout_width="-1"-->
+<!--                android:layout_height="dimension(1)"-->
+<!--                android:layout_weight="1073741824.000000">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="-2"-->
+<!--                    android:layout_height="-2"-->
+<!--                    android:layout_marginLeft="dimension(2561)"-->
+<!--                    android:src="@ref/0x7f08016f" />-->
+
+<!--                <TextView-->
+<!--                    android:textSize="dimension(4098)"-->
+<!--                    android:textColor="@ref/0x7f06003a"-->
+<!--                    android:gravity="0x10"-->
+<!--                    android:layout_width="-2"-->
+<!--                    android:layout_height="-1"-->
+<!--                    android:layout_marginLeft="dimension(1281)"-->
+<!--                    android:text="Sun rise / Sun set" />-->
+
+<!--                <TextView-->
+<!--                    android:textSize="dimension(4098)"-->
+<!--                    android:textColor="@ref/0x7f06003a"-->
+<!--                    android:gravity="0x10"-->
+<!--                    android:id="@ref/0x7f090178"-->
+<!--                    android:layout_width="-2"-->
+<!--                    android:layout_height="-1"-->
+<!--                    android:layout_marginLeft="dimension(2561)"-->
+<!--                    android:text="06:16 / 17:35" />-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+<!--    </FrameLayout>-->
+
+<!--    <TextView-->
+<!--        android:textSize="dimension(5634)"-->
+<!--        android:textColor="@ref/0x7f06003a"-->
+<!--        android:layout_width="-2"-->
+<!--        android:layout_height="-2"-->
+<!--        android:layout_marginLeft="dimension(2561)"-->
+<!--        android:text="CHI TIẾT" />-->
+
+<!--    <FrameLayout-->
+<!--        android:background="@ref/0x7f060036"-->
+<!--        android:layout_width="-1"-->
+<!--        android:layout_height="-1"-->
+<!--        android:layout_marginLeft="dimension(2561)"-->
+<!--        android:layout_marginTop="dimension(1281)"-->
+<!--        android:layout_marginRight="dimension(2561)"-->
+<!--        android:layout_marginBottom="dimension(2561)">-->
+
+<!--        <ProgressBar-->
+<!--            android:layout_gravity="0x11"-->
+<!--            android:id="@ref/0x7f0900f5"-->
+<!--            android:layout_width="-2"-->
+<!--            android:layout_height="-2" />-->
+
+<!--        <LinearLayout-->
+<!--            android:orientation="1"-->
+<!--            android:id="@ref/0x7f0900b3"-->
+<!--            android:visibility="1"-->
+<!--            android:layout_width="-1"-->
+<!--            android:layout_height="-1"-->
+<!--            android:weightSum="1103626240.000000">-->
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="-1"-->
+<!--                android:layout_height="dimension(1)"-->
+<!--                android:layout_marginLeft="dimension(3841)"-->
+<!--                android:layout_marginRight="dimension(3841)"-->
+<!--                android:layout_weight="1084227584.000000">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@ref/0x7f090099"-->
+<!--                    android:layout_width="dimension(7681)"-->
+<!--                    android:layout_height="dimension(7681)"-->
+<!--                    android:src="@ref/0x7f0800d9"-->
+<!--                    android:layout_centerVertical="true" />-->
+
+<!--                <TextView-->
+<!--                    android:textSize="dimension(5122)"-->
+<!--                    android:textColor="@ref/0x7f06003a"-->
+<!--                    android:layout_width="-2"-->
+<!--                    android:layout_height="-2"-->
+<!--                    android:layout_marginLeft="dimension(1281)"-->
+<!--                    android:text="Độ ẩm"-->
+<!--                    android:layout_toRightOf="@ref/0x7f090099"-->
+<!--                    android:layout_centerVertical="true" />-->
+
+<!--                <TextView-->
+<!--                    android:textSize="dimension(5122)"-->
+<!--                    android:textColor="@ref/0x7f06003a"-->
+<!--                    android:layout_gravity="0x11"-->
+<!--                    android:id="@ref/0x7f09016f"-->
+<!--                    android:layout_width="-2"-->
+<!--                    android:layout_height="-2"-->
+<!--                    android:text="51%"-->
+<!--                    android:layout_alignParentRight="true"-->
+<!--                    android:layout_centerVertical="true" />-->
+
+<!--                <View-->
+<!--                    android:background="@ref/0x7f06003a"-->
+<!--                    android:layout_width="-1"-->
+<!--                    android:layout_height="dimension(257)"-->
+<!--                    android:layout_alignParentBottom="true" />-->
+<!--            </RelativeLayout>-->
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="-1"-->
+<!--                android:layout_height="dimension(1)"-->
+<!--                android:layout_marginLeft="dimension(3841)"-->
+<!--                android:layout_marginRight="dimension(3841)"-->
+<!--                android:layout_weight="1084227584.000000">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@ref/0x7f090098"-->
+<!--                    android:layout_width="dimension(7681)"-->
+<!--                    android:layout_height="dimension(7681)"-->
+<!--                    android:src="@ref/0x7f0800b4"-->
+<!--                    android:layout_centerVertical="true" />-->
+
+<!--                <TextView-->
+<!--                    android:textSize="dimension(5122)"-->
+<!--                    android:textColor="@ref/0x7f06003a"-->
+<!--                    android:layout_width="-2"-->
+<!--                    android:layout_height="-2"-->
+<!--                    android:layout_marginLeft="dimension(1281)"-->
+<!--                    android:text="Mây"-->
+<!--                    android:layout_toRightOf="@ref/0x7f090098"-->
+<!--                    android:layout_centerVertical="true" />-->
+
+<!--                <TextView-->
+<!--                    android:textSize="dimension(5122)"-->
+<!--                    android:textColor="@ref/0x7f06003a"-->
+<!--                    android:layout_gravity="0x11"-->
+<!--                    android:id="@ref/0x7f09016c"-->
+<!--                    android:layout_width="-2"-->
+<!--                    android:layout_height="-2"-->
+<!--                    android:text="15%"-->
+<!--                    android:layout_alignParentRight="true"-->
+<!--                    android:layout_centerVertical="true" />-->
+
+<!--                <View-->
+<!--                    android:background="@ref/0x7f06003a"-->
+<!--                    android:layout_width="-1"-->
+<!--                    android:layout_height="dimension(257)"-->
+<!--                    android:layout_alignParentBottom="true" />-->
+<!--            </RelativeLayout>-->
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="-1"-->
+<!--                android:layout_height="dimension(1)"-->
+<!--                android:layout_marginLeft="dimension(3841)"-->
+<!--                android:layout_marginRight="dimension(3841)"-->
+<!--                android:layout_weight="1084227584.000000">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@ref/0x7f09009d"-->
+<!--                    android:layout_width="dimension(7681)"-->
+<!--                    android:layout_height="dimension(7681)"-->
+<!--                    android:src="@ref/0x7f080171"-->
+<!--                    android:layout_centerVertical="true" />-->
+
+<!--                <TextView-->
+<!--                    android:textSize="dimension(5122)"-->
+<!--                    android:textColor="@ref/0x7f06003a"-->
+<!--                    android:layout_width="-2"-->
+<!--                    android:layout_height="-2"-->
+<!--                    android:layout_marginLeft="dimension(1281)"-->
+<!--                    android:text="Tầm nhìn"-->
+<!--                    android:layout_toRightOf="@ref/0x7f09009d"-->
+<!--                    android:layout_centerVertical="true" />-->
+
+<!--                <TextView-->
+<!--                    android:textSize="dimension(5122)"-->
+<!--                    android:textColor="@ref/0x7f06003a"-->
+<!--                    android:layout_gravity="0x11"-->
+<!--                    android:id="@ref/0x7f090179"-->
+<!--                    android:layout_width="-2"-->
+<!--                    android:layout_height="-2"-->
+<!--                    android:layout_marginRight="dimension(513)"-->
+<!--                    android:text="16 km"-->
+<!--                    android:layout_alignParentRight="true"-->
+<!--                    android:layout_centerVertical="true" />-->
+
+<!--                <View-->
+<!--                    android:background="@ref/0x7f06003a"-->
+<!--                    android:layout_width="-1"-->
+<!--                    android:layout_height="dimension(257)"-->
+<!--                    android:layout_alignParentBottom="true" />-->
+<!--            </RelativeLayout>-->
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="-1"-->
+<!--                android:layout_height="dimension(1)"-->
+<!--                android:layout_marginLeft="dimension(3841)"-->
+<!--                android:layout_marginRight="dimension(3841)"-->
+<!--                android:layout_weight="1084227584.000000">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@ref/0x7f09009e"-->
+<!--                    android:layout_width="dimension(7681)"-->
+<!--                    android:layout_height="dimension(7681)"-->
+<!--                    android:src="@ref/0x7f08016e"-->
+<!--                    android:layout_centerVertical="true" />-->
+
+<!--                <TextView-->
+<!--                    android:textSize="dimension(5122)"-->
+<!--                    android:textColor="@ref/0x7f06003a"-->
+<!--                    android:layout_width="-2"-->
+<!--                    android:layout_height="-2"-->
+<!--                    android:layout_marginLeft="dimension(1281)"-->
+<!--                    android:text="Áp suất"-->
+<!--                    android:layout_toRightOf="@ref/0x7f09009e"-->
+<!--                    android:layout_centerVertical="true" />-->
+
+<!--                <TextView-->
+<!--                    android:textSize="dimension(5122)"-->
+<!--                    android:textColor="@ref/0x7f06003a"-->
+<!--                    android:layout_gravity="0x11"-->
+<!--                    android:id="@ref/0x7f090173"-->
+<!--                    android:layout_width="-2"-->
+<!--                    android:layout_height="-2"-->
+<!--                    android:layout_marginRight="dimension(513)"-->
+<!--                    android:text="1022 mb"-->
+<!--                    android:layout_alignParentRight="true"-->
+<!--                    android:layout_centerVertical="true" />-->
+
+<!--                <LinearLayout-->
+<!--                    android:background="@ref/0x7f06003a"-->
+<!--                    android:layout_width="-1"-->
+<!--                    android:layout_height="dimension(257)"-->
+<!--                    android:layout_alignParentBottom="true">-->
+
+<!--                </LinearLayout>-->
+<!--            </RelativeLayout>-->
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="-1"-->
+<!--                android:layout_height="dimension(1)"-->
+<!--                android:layout_marginLeft="dimension(3841)"-->
+<!--                android:layout_marginRight="dimension(3841)"-->
+<!--                android:layout_weight="1084227584.000000">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@ref/0x7f09009b"-->
+<!--                    android:layout_width="dimension(7681)"-->
+<!--                    android:layout_height="dimension(7681)"-->
+<!--                    android:src="@ref/0x7f0800da"-->
+<!--                    android:layout_centerVertical="true" />-->
+
+<!--                <TextView-->
+<!--                    android:textSize="dimension(5122)"-->
+<!--                    android:textColor="@ref/0x7f06003a"-->
+<!--                    android:layout_width="-2"-->
+<!--                    android:layout_height="-2"-->
+<!--                    android:layout_marginLeft="dimension(1281)"-->
+<!--                    android:text="Chỉ số UV"-->
+<!--                    android:layout_toRightOf="@ref/0x7f09009b"-->
+<!--                    android:layout_centerVertical="true" />-->
+
+<!--                <TextView-->
+<!--                    android:textSize="dimension(5122)"-->
+<!--                    android:textColor="@ref/0x7f06003a"-->
+<!--                    android:layout_gravity="0x11"-->
+<!--                    android:id="@ref/0x7f090170"-->
+<!--                    android:layout_width="-2"-->
+<!--                    android:layout_height="-2"-->
+<!--                    android:layout_marginRight="dimension(513)"-->
+<!--                    android:text="1"-->
+<!--                    android:layout_alignParentRight="true"-->
+<!--                    android:layout_centerVertical="true" />-->
+<!--            </RelativeLayout>-->
+<!--        </LinearLayout>-->
+<!--    </FrameLayout>-->
+<!--</LinearLayout>-->
+<LinearLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"></LinearLayout>

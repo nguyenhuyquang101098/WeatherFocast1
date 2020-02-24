@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Weather Forecast</string>
+    <string name="today">Hôm nay</string>
+    <string name="forecast">Dự báo</string>
+    <string name="character_counter_content_description">Character limit exceeded %1$d of %2$d</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="humidity">Độ ẩm</string>
+    <string name="cloud">Mây</string>
+    <string name="wind">Gió</string>
+    <string name="pressure">Áp suất</string>
+    <string name="uv_index">Chỉ số UV</string>
+    <string name="detail">CHI TIẾT</string>
+    <string name="place">Địa điểm</string>
+    <string name="add_place">Thêm địa điểm</string>
+    <string name="my_place">Vị trí của tôi</string>
+    <string name="_8942">⋮</string>
+    <string name="set_is_home">Đặt là nhà</string>
+    <string name="delete">Xoá</string>
+    <string name="hint_search">Tên địa danh, thành phố...</string>
+    <string name="turn_on_location">Bật định vị vị trí?</string>
+    <string name="cancel">Huỷ bỏ</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="last_updated">Cập nhật lúc: </string>
+    <string name="notification">Thông báo</string>
+    <string name="ok">OK</string>
+    <string name="sun_rise_and_sun_set">Bình minh / Hoàng hôn: </string>
+    <string name="doC">º</string>
+</resources>
