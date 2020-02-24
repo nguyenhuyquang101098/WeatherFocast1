@@ -36,6 +36,8 @@ public class Place implements Serializable {
     }
 
     public String getName() {
+        if (name.equals("Thái Nguyên"))
+            return "Tỉnh Thái Nguyên";
         return name;
     }
 

@@ -15,7 +15,7 @@ import com.google.android.gms.common.GoogleApiAvailability;
 import com.google.android.gms.location.LocationRequest;
 
 public class AppHelper {
-    private static long MY_INTERVAL = 1800000L; // 30 minutes
+    public static long MY_INTERVAL = 1800000L; // 30 minutes
     private static String TAG = "AppHelper";
 
     public static boolean isPlayServicesAvailable(Context context) {

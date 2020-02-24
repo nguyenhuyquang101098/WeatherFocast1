@@ -51,6 +51,8 @@ public class WeatherCurrentDay {
     }
 
     public String getNameAndCountry() {
+        if (country.equals("VN") || country.equals("Vietnam"))
+            return name + ", " + "Việt Nam";
         return name + ", " + country;
     }
 

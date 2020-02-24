@@ -89,10 +89,15 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void createLocationCallBack() {
+
         locationCallback = new LocationCallback() {
             @Override
             public void onLocationResult(LocationResult locationResult) {
                 super.onLocationResult(locationResult);
+                if (locationRequest.getInterval() == 1L) {
+                    locationRequest.setInterval(AppHelper.MY_INTERVAL);
+                    locationProviderClient.requestLocationUpdates(locationRequest, locationCallback, Looper.myLooper());
+                }
                 if (locationResult.getLastLocation() == null)
                     return;
                 LatLng latLng = new LatLng(
@@ -134,6 +139,7 @@ public class MainActivity extends AppCompatActivity {
         if (requestCode == REQUEST_CODE) {
             if (resultCode == PlaceActivity.RESULT_CODE_MY_LOCATION) {
                 mainViewModel.currentLatLng.setValue(null);
+                locationRequest.setInterval(1L);
                 requestLocationUpdate();
             } else if (resultCode == PlaceActivity.RESULT_CODE_PLACE_RETURN) {
                 Place place = (Place) data.getSerializableExtra(PlaceActivity.PLACE_RETURN);
@@ -193,6 +199,7 @@ public class MainActivity extends AppCompatActivity {
         if (!AppHelper.isLocationProviderEnabled(this)) {
             dialogTurnOnLocation.show();
         }
+
         locationProviderClient.requestLocationUpdates(locationRequest, locationCallback, Looper.myLooper());
     }
 

@@ -47,7 +47,7 @@ public interface WeatherForecastApi {
             @Query("lon") double lng
     );
 
-    @GET("autocomplete")
+    @GET("autocomplete?language=vi")
     Call<List<ItemSearch>> fetchPlaces(
             @Query("apikey") String apiKey,
             @Query("q") String keyWord
