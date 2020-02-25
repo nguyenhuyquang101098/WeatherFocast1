@@ -9,6 +9,7 @@ import android.os.Looper;
 import android.provider.Settings;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -33,6 +34,8 @@ import net.tuyenoc.weather_focast.R;
 import net.tuyenoc.weather_focast.adapters.ViewPagerAdapter;
 import net.tuyenoc.weather_focast.models.Place;
 import net.tuyenoc.weather_focast.viewmodels.MainViewModel;
+
+import es.dmoral.toasty.Toasty;
 
 public class MainActivity extends AppCompatActivity {
     private static final int REQUEST_CODE = 123;
@@ -68,16 +71,21 @@ public class MainActivity extends AppCompatActivity {
         locationProviderClient = LocationServices.getFusedLocationProviderClient(this);
         locationRequest = AppHelper.getLocationRequest();
 
-        if (mainViewModel.getPlaceIsHome() != null) {
-            mainViewModel.currentPlace = mainViewModel.getPlaceIsHome();
-            mainViewModel.getWeatherByPlace(mainViewModel.currentPlace);
-        } else {
-            if (!AppHelper.isHaveLocationPermission(this)) {
-                ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, MY_PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION);
+        if (AppHelper.isNetworkAvailable(MainActivity.this)) {
+            if (mainViewModel.getPlaceIsHome() != null) {
+                mainViewModel.currentPlace = mainViewModel.getPlaceIsHome();
+                mainViewModel.getWeatherByPlace(mainViewModel.currentPlace);
             } else {
-                requestLocationUpdate();
+                if (!AppHelper.isHaveLocationPermission(this)) {
+                    ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, MY_PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION);
+                } else {
+                    requestLocationUpdate();
+                }
             }
+        } else {
+            Toasty.warning(MainActivity.this, getString(R.string.no_network_connection), Toast.LENGTH_SHORT).show();
         }
+
 
         mainViewModel.titleToolbar.observe(this, new Observer<String>() {
             @Override

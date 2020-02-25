@@ -26,4 +26,5 @@
     <string name="ok">OK</string>
     <string name="sun_rise_and_sun_set">Bình minh / Hoàng hôn: </string>
     <string name="doC">º</string>
+    <string name="no_network_connection">Không có kết nối mạng!</string>
 </resources>
