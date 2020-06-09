@@ -4,9 +4,8 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class WeatherForecastClient {
-    private static final String BASE_URL = "http://api.openweathermap.org/data/2.5/";
+    private static final String BASE_URL = "https://api.openweathermap.org/data/2.5/";
     public static final String BASE_URL_SEARCH = "https://api.accuweather.com/locations/v1/cities/";
-    //public static final String BASE_URL_SEARCH = "http://dataservice.accuweather.com/locations/v1/cities/";
     public static final String API_KEY = "35816eb5ebf1e6979aba5743806b7ab8";
     public static final String API_KEY_SEARCH = "srRLeAmTroxPinDG8Aus3Ikl6tLGJd94";
     //public static final String API_KEY_SEARCH = "8pHc3erGFfsJ8uQcr28Jfe36X4AYZ7XA";

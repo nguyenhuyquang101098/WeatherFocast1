@@ -64,7 +64,7 @@ public class WeatherCurrentDay {
     }
 
     public String getIcon() {
-        return "http://openweathermap.org/img/wn/" + icon + "@2x.png";
+        return "https://openweathermap.org/img/wn/" + icon + "@2x.png";
     }
 
     public long getTemp() {
